@@ -1,6 +1,6 @@
-interface Ihello{a:string,b:string}
+interface Ihello<T>{a:T,b:string}
 
-function hello(props:Ihello){
+function hello(props:Ihello<string>){
 
 }
 
