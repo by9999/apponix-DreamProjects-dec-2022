@@ -1,5 +1,5 @@
 import { Myh1, Myh2 } from "./app/component"
-import { About, Contact, DifferntwaysToCallAfunction, Home } from "./app/pages"
+import { About, Contact, DifferntwaysToCallAfunction, Home, UserLogin } from "./app/pages"
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 
 export const App = () => {
@@ -9,6 +9,7 @@ export const App = () => {
   <Route path="/about" element={<About/>}/>
   <Route path="/contact" element={<Contact/>}/>
   <Route path="/home" element={<Home/>}/>
+  <Route path="/login" element={<UserLogin/>}/>
   <Route path="/" element={<DifferntwaysToCallAfunction/>}/>
 </Routes>
     </Router>
